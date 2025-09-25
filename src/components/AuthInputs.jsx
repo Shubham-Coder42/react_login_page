@@ -41,7 +41,7 @@ export default function AuthInputs() {
           }
         />
       </div>
-      <div className="flex justify-end gap-4 items-center">
+      <div className="flex flex-col justify-between gap-4 items-center md:flex-row">
         <button type="button" className="text-amber-500 hover:text-amber-600">Create a new account</button>
         <Button onClick={handleLogin}>Sign In</Button>
       </div>
